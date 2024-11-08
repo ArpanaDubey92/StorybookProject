@@ -9,14 +9,14 @@ export interface ButtonProps {
   backgroundColor?: string;
   /** How large should the button be? */
   size?: 'small' | 'medium' | 'large'| 'big';
-  /** Button contents */
+  /** GenerateSummaryButton contents */
   label: string;
   /** Optional click handler */
   onClick?: () => void;
 }
 
 /** Primary UI component for user interaction */
-export const Button = ({
+export const GenerateSummaryButton = ({
   primary = false,
   size = 'medium',
   backgroundColor,
